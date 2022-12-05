@@ -1,0 +1,3 @@
+frictionless
+csvs_convert
+datasette
