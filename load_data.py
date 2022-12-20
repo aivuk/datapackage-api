@@ -24,8 +24,8 @@ def load_csv(csv_file):
     package.to_json('datapackage.json')
     load_datapackage('datapackage.json')
 
-    if filename_extension == 'json':
-        load_datapackage(filename)
-    elif filename_extension == 'csv':
-        load_csv(filename)
+if filename_extension == 'json':
+    load_datapackage(filename)
+elif filename_extension == 'csv':
+    load_csv(filename)
 
